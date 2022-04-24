@@ -25,10 +25,12 @@ function ListarFuncionariosCadastrados() {
                 <td> Sobre Nome: </td>
                 <td> Salario: </td>
                 <td> Cargo: </td>
+                <td> Setor: </td>
                 <td> Logradouro: </td>
                 <td> Numero da Casa: </td>
                 <td> CEP: </td>
                 <td> Cidade: </td>
+                <td> Estado: </td>
                 <td> Pais: </td>
 
                 {funcionarios.map((funcionario) => {
